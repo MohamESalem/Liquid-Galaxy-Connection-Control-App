@@ -1,0 +1,31 @@
+name: lg_connection
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  dartssh2: ^2.11.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/kmls/kml1.kml
+    - assets/kmls/kml2.kml
+    - assets/kmls/logo.kml
+
+lg_connection:
+  path: ./lib
